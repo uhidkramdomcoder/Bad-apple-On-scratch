@@ -1,0 +1,21 @@
+ Ignore Scratch backups (if any)
+*.sb2.backup
+*.sb3.backup
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore node or Python folders in case you add automation later
+node_modules/
+__pycache__/
+
+# Logs
+*.log
+
+# Ignore zip archives if you're exporting
+*.zip
